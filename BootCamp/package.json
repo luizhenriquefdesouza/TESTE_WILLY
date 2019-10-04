@@ -1,0 +1,21 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_api" : "NODE_ENV=https://api.magicthegathering.io/ mocha API/magic_api.js",
+    "test_sdk" : "NODE_ENV=https://api.magicthegathering.io/ mocha API/magic_sdk.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "mtgsdk": "^0.4.3"
+  },
+  "description": ""
+}

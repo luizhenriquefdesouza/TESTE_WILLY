@@ -1,0 +1,10 @@
+# config/cucumber.yml
+##YAML Template
+---
+android: PLATFORM=android -f json -o cucumber.json -r features/support/utils.rb -r features/support/hooks.rb -r features/support/env.rb -r features/support/dados.rb -r features/android -r features/step_definitions --exclude features/ios
+android_qa: PLATFORM=android -f json -o cucumber.json -r features/support/utils.rb -r features/support/hooks.rb -r features/support/dados.rb -r features/support/qa/env.rb -r features/android -r features/step_definitions --exclude features/ios
+android_homolog: PLATFORM=android -f json -o cucumber.json -r features/support/utils.rb -r features/support/hooks.rb -r features/support/homolog/dados.rb -r features/support/homolog/env.rb -r features/android -r features/step_definitions --exclude features/ios
+android_prod: PLATFORM=android -f json -o cucumber.json -r features/support/utils.rb -r features/support/hooks.rb -r features/support/prod/dados.rb -r features/support/prod/env.rb -r features/android -r features/step_definitions --exclude features/ios
+
+
+ios: PLATFORM=ios -r features/support/hooks.rb -r features/ios/ -r features/step_definitions -r features/env.rb

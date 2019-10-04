@@ -1,0 +1,8 @@
+LuizQA:
+#/Users/luiz.h.de.souza/Documents/bootcamp-super-app/MagicApp/MagicApp.xcodeproj
+ xcworkspace: "/Users/luiz.h.de.souza/Documents/bootcamp-super-app/MagicApp.xcworkspace"
+ scheme:  MagicApp
+ configuration: Debug
+ destination: "platform=iOS Simulator,name=iPhone_SE"
+ export_path: "/Users/luiz.h.de.souza/Documents/MagicAPP"
+ swift_gen_path: ""

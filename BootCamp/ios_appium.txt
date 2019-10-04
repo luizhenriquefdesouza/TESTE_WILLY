@@ -1,0 +1,11 @@
+[caps]
+platformName = "iOS"
+platformVersion = "13.0"
+deviceName = "iPhone_SE"
+noReset= "true"
+fullReset= "false"
+app = "/Users/luiz.h.de.souza/Documents/MagicAPP/iOS_Simulator_iPhone_X/MagicApp.app"
+automationName = 'XCUITest'
+
+[appium_lib]
+port = "4723"
